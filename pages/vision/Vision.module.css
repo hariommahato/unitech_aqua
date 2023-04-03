@@ -1,0 +1,33 @@
+.mainDiv{
+  width: 80%;
+  margin: auto;
+  margin-top: 2vmax;
+}
+.imageContainer{
+  width: 60%;
+  margin: auto;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+}
+.detailContainer{
+  margin-top: 1vmax;
+
+}
+.heading{
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .mainDiv{
+    width: 100%;
+  }
+  .imageContainer{
+    width: 100%;
+  }
+  .image {
+    width:100%;
+    height: 100%;
+  }
+}

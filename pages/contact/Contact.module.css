@@ -1,0 +1,23 @@
+.mainDiv {
+  width: 80%;
+  margin: auto;
+  margin-top: 3vmax;
+}
+.formContainer{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+@media only screen and (max-width: 600px) {
+  .formContainer {
+    width: 100%;
+    margin: auto;
+  }
+  .mainDiv{
+    width: 100%;
+  }
+}
+

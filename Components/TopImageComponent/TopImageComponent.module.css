@@ -1,0 +1,14 @@
+.topImageContainer{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+  }

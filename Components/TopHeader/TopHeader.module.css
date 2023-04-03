@@ -1,0 +1,19 @@
+.row{
+    width: 80%;
+    margin: auto;
+    min-height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+}
+.contactContainer{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
