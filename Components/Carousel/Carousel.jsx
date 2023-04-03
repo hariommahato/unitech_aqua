@@ -4,10 +4,18 @@ function CarouselCompo() {
   return (
     <Carousel fade>
       <Carousel.Item className={styles.carouselItem}>
-        <video src={"/video.mp4"} className={styles.video} autoPlay muted />
+        <img
+          className="d-block w-100"
+          src="https://images.unsplash.com/photo-1617450365226-9bf28c04e130?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt="First slide"
+          style={{
+            objectFit: "cover",
+            backgroundPosition: "center",
+          }}
+        />
         <Carousel.Caption>
-          {/* <h3>Second slide label</h3> */}
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          {/* <h3>First slide label</h3>*/}
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className={styles.carouselItem}>
