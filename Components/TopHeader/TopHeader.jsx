@@ -5,29 +5,49 @@ import Image from "next/image";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
 import styles from "./TopHeader.module.css";
+import { motion } from "framer-motion";
 const TopHeader = () => {
   return (
-    <div>
+    <div className={styles.mainDiv}>
       <Row className={styles.row}>
         <Col lg={8} md={6} sm={12} className={styles.logoContainer}>
-          <Image
-            src={logo}
-            height={90}
-            width={90}
-            style={{ borderRadius: "50%" }}
-          />
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{
+              type: "tween",
+              stiffness: 200,
+              damping: 40,
+            }}
+          >
+            <Image
+              src={logo}
+              height={90}
+              width={90}
+              style={{ borderRadius: "50%" }}
+            />
+          </motion.div>
           <h4>Aqua Culture Society</h4>
         </Col>
 
         <Col lg={4} md={6} sm={12}>
-          <div className={styles.contactContainer}>
+          <motion.div
+            className={styles.contactContainer}
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{
+              type: "tween",
+              stiffness: 200,
+              damping: 40,
+            }}
+          >
             <div>
-              <BsFillTelephoneFill size={30} color="#DF2E38" /> 9842634234234234
+              <BsFillTelephoneFill size={20} color="white" /> 984141414141
             </div>
             <div>
-              <AiFillMail size={30} color="#DF2E38" /> unitechmail@edu.np
+              <AiFillMail size={20} color="white" /> unitechmail@edu.np
             </div>
-          </div>
+          </motion.div>
         </Col>
       </Row>
     </div>

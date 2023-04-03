@@ -4,9 +4,10 @@ import TopImageComponent from "@/Components/TopImageComponent";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
 import Image from "next/image";
+import Layout from "@/Components/Layout";
 const Approach = () => {
   return (
-    <div>
+    <Layout>
       <TopImageComponent title={"Our Approach"} />
       <Row className={styles.mainDiv}>
         <Col lg={9} md={6} sm={12}>
@@ -134,7 +135,7 @@ const Approach = () => {
           <HomeRightSection />
         </Col>
       </Row>
-    </div>
+    </Layout>
   );
 };
 

@@ -4,11 +4,12 @@ import styles from "./Project.module.css";
 import TopImageComponent from "@/Components/TopImageComponent";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
+import Layout from "@/Components/Layout";
 
 const Project = () => {
   return (
     <>
-      <div>
+      <Layout>
         <TopImageComponent title={"Projects"} />
 
         <Row className={styles.mainDiv}>
@@ -182,7 +183,7 @@ const Project = () => {
             <HomeRightSection />
           </Col>
         </Row>
-      </div>
+      </Layout>
     </>
   );
 };

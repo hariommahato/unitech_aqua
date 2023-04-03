@@ -4,10 +4,11 @@ import styles from "./OurStory.module.css";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
 import TopImageComponent from "@/Components/TopImageComponent";
+import Layout from "@/Components/Layout";
 
 const OurStory = () => {
   return (
-    <>
+    <Layout>
       <TopImageComponent title="Our Story" />
       <Row className={styles.mainRow}>
         <Col lg={9} md={6} sm={12}>
@@ -84,7 +85,7 @@ const OurStory = () => {
           <HomeRightSection />
         </Col>
       </Row>
-    </>
+    </Layout>
   );
 };
 

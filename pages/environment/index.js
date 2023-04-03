@@ -4,11 +4,12 @@ import styles from "./Environment.module.css";
 import TopImageComponent from "@/Components/TopImageComponent";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
+import Layout from "@/Components/Layout";
 
 const Environment = () => {
   return (
     <>
-      <div>
+      <Layout>
         <TopImageComponent title={"Environment"} />
 
         <Row className={styles.mainDiv}>
@@ -73,7 +74,7 @@ const Environment = () => {
             <HomeRightSection />
           </Col>
         </Row>
-      </div>
+      </Layout>
     </>
   );
 };

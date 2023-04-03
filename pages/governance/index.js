@@ -6,11 +6,12 @@ import CarouselCompo from "@/Components/Carousel/Carousel";
 import TopImageComponent from "@/Components/TopImageComponent";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
+import Layout from "@/Components/Layout";
 
 const Governance = () => {
   return (
     <>
-      <div>
+      <Layout>
         <TopImageComponent title={"Governance"}/>
 
         <Row className={styles.mainDiv}>
@@ -211,7 +212,7 @@ const Governance = () => {
             <HomeRightSection />
           </Col>
         </Row>
-      </div>
+      </Layout>
     </>
   );
 };

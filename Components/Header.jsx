@@ -8,8 +8,12 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container>
+    <Navbar collapseOnSelect expand="lg" style={{
+      minHeight:"5rem",
+      fontWeight:"bold",
+      color:"white"
+    }}>
+      <Container style={{width:"80%",margin:"auto",fontSize:"1vmax"}}>
         <Navbar.Brand href="/"></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

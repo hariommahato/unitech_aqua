@@ -1,3 +1,7 @@
+.mainDiv{
+    background-color: #F94A29;
+    color: white;
+}
 .row{
     width: 80%;
     margin: auto;
@@ -13,7 +17,18 @@
     gap: 1vmax;
 }
 .contactContainer{
+    width: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
+@media only screen and (max-width: 600px) {
+    .row{
+        width: 100%;
+    }
+    .contactContainer{
+        justify-content: center;
+        padding: 1vmax;
+    }
+  }
+  

@@ -4,10 +4,11 @@ import styles from "./Csr.module.css";
 import TopImageComponent from "@/Components/TopImageComponent";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
+import Layout from "@/Components/Layout";
 
 const CSR = () => {
   return (
-    <>
+    <Layout>
       <div>
         <TopImageComponent title={"CSR"} />
 
@@ -284,7 +285,7 @@ const CSR = () => {
           </Col>
         </Row>
       </div>
-    </>
+    </Layout>
   );
 };
 

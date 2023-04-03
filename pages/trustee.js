@@ -4,11 +4,12 @@ import styles from "../styles/Trustee.module.css";
 import { Col, Row } from "react-bootstrap";
 import HomeRightSection from "@/Components/HomeRightSection";
 import TopImageComponent from "@/Components/TopImageComponent";
+import Layout from "@/Components/Layout";
 
 
 const trustee = () => {
   return (
-    <>
+    <Layout>
      <TopImageComponent title="Trustee"/>
       <Row className={styles.mainRow}>
         <Col lg={9} md={6} sm={12}>
@@ -82,7 +83,7 @@ const trustee = () => {
           <HomeRightSection />
         </Col>
       </Row>
-    </>
+    </Layout>
   );
 };
 
