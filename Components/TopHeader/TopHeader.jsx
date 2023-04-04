@@ -22,8 +22,8 @@ const TopHeader = () => {
           >
             <Image
               src={logo}
-              height={90}
-              width={90}
+              height={60}
+              width={60}
               style={{ borderRadius: "50%" }}
             />
           </motion.div>

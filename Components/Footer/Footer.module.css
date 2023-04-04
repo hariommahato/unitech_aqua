@@ -1,0 +1,19 @@
+.topHeader{
+    background-color: #C7E9B0;
+    color: black;
+    margin-top: 2vmax;
+}
+.mainDiv{
+    width: 80%;
+    margin: auto;
+    padding: 2vmax;
+    text-align: center;
+}
+.list{
+    list-style: none;
+    padding: 0;
+}
+.item:hover{
+    color: red;
+    cursor: pointer;
+}

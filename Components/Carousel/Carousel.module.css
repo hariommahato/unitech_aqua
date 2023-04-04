@@ -1,14 +1,13 @@
-.carouselItem{
-    width: 100%;
-    height: 40rem;
-    object-fit: cover;
-}
-.video{
+.carouselItem {
   width: 100%;
-
+  height: 40rem;
+  object-fit: cover;
+}
+.video {
+  width: 100%;
 }
 @media only screen and (max-width: 600px) {
-    .carouselItem {
-      height: 20rem;
-    }
+  .carouselItem {
+    height: 10rem;
   }
+}

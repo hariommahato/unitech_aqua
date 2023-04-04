@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TopHeader from "@/Components/TopHeader/TopHeader";
 import { AnimatePresence } from "framer-motion";
+import Footer from "@/Components/Footer";
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -10,6 +11,7 @@ export default function App({ Component, pageProps }) {
         <TopHeader />
         <Header />
         <Component {...pageProps} />
+        <Footer/>
       </AnimatePresence>
     </>
   );

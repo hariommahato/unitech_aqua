@@ -13,7 +13,7 @@ const HomeSection = () => {
         <Col lg={9} md={6} sm={12}>
           <div className={styles.imageContainer}>
             <Image
-              src={girl}
+              src={'/girl.jpeg'}
               width="0"
               height="0"
               sizes="100vw"
